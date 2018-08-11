@@ -1,0 +1,33 @@
+Earlier:
+Http -> @angular/http
+
+5.0^
+HttpClient ->@angular/common/http
+
+Earlier
+import 'rxjs/add/operator/map'
+
+5.0^
+import {map} from 'rxjs';
+
+Test suites -> Collection of related test cases
+Testing Framework (written in) -> Jasmine | Mocha | Sinon
+Testing Engine -> (executes) -> Karma
+
+npm install karma karma-jasmine jasmine-core
+npm install karma-cli -g
+karma init -> creates a karma.conf.js
+karma start
+
+
+
+
+
+
+
+
+
+
+
+
+
